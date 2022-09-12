@@ -1,4 +1,7 @@
 "# centene" 
+sumDev
+Runtime Log results are under the /trigger
+
 AWS Interview Project
 The criteria is as follows:
 - Build out the data pipeline presented in the diagram below in a personal AWS account.
