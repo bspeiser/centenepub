@@ -1,0 +1,11 @@
+START RequestId: 77c35582-cd01-414b-a53d-afac3ad0e2d0 Version: $LATEST
+{'Records': [{'eventVersion': '2.1', 'eventSource': 'aws:s3', 'awsRegion': 'us-east-2', 'eventTime': '2022-09-12T13:41:10.294Z', 'eventName': 'ObjectCreated:Put', 'userIdentity': {'principalId': 'AWS:AIDARN7PY3VVZHIII4HMK'}, 'requestParameters': {'sourceIPAddress': '74.133.83.160'}, 'responseElements': {'x-amz-request-id': '2JFQCEGT4RSCC5CD', 'x-amz-id-2': 'RQDZgKZKAevnobJZpOLjqTeUF2l/uYA3bWyYOqpjjX6/brj4RLV3VkdJTKL0P0v3PSnK74mZQRqarg/DoYQJ0vlb/0C7noHcAXGJwnz+W4o='}, 's3': {'s3SchemaVersion': '1.0', 'configurationId': '6f126a52-2cae-414a-95ba-367347d3864c', 'bucket': {'name': 'centene-sum-env3', 'ownerIdentity': {'principalId': 'ACYC82RW2GXQH'}, 'arn': 'arn:aws:s3:::centene-sum-env3'}, 'object': {'key': 'input/triggerFile.txt', 'size': 45, 'eTag': 'c913d21c5cd445cba96837508ab2a6e1', 'sequencer': '00631F36F645773FBA'}}}]}
+contents:
+sbx|dev|tst|prd|srd
+7101|3501|0862|4284|7437
+results:
+sbx|dev|tst|prd|srd
+7101|3501|0862|4284|7437
+sum:23185
+END RequestId: 77c35582-cd01-414b-a53d-afac3ad0e2d0
+REPORT RequestId: 77c35582-cd01-414b-a53d-afac3ad0e2d0	Duration: 649.96 ms	Billed Duration: 650 ms	Memory Size: 128 MB	Max Memory Used: 71 MB	

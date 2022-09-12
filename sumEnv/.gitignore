@@ -1,0 +1,4 @@
+*.zip
+terraform.exe
+.terrform.lock.*
+.terraform

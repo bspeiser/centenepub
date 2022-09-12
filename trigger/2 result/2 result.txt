@@ -1,0 +1,23 @@
+2022-09-12T09:48:31.941-04:00	START RequestId: 2d69e580-591d-4b0c-afde-ead95eb37807 Version: $LATEST
+
+2022-09-12T09:48:31.944-04:00	{'Records': [{'eventVersion': '2.1', 'eventSource': 'aws:s3', 'awsRegion': 'us-east-2', 'eventTime': '2022-09-12T13:48:05.327Z', 'eventName': 'ObjectCreated:Put', 'userIdentity': {'principalId': 'AWS:AIDARN7PY3VVZHIII4HMK'}, 'requestParameters': {'sourceIPAddress': '74.133.83.160'}, 'responseElements': {'x-amz-request-id': '4MDY045KPZW7MBNF', 'x-amz-id-2': 'Az/k8Uk2NZ0RWwiVBO66ShiBzjqbmtZeuBSgrterzMl6n2j3VrUyR00YU4gb7b2HZxYRcDkL6iyGlXjn0t8yt4iWMJPhyPWz'}, 's3': {'s3SchemaVersion': '1.0', 'configurationId': '6f126a52-2cae-414a-95ba-367347d3864c', 'bucket': {'name': 'centene-sum-env3', 'ownerIdentity': {'principalId': 'ACYC82RW2GXQH'}, 'arn': 'arn:aws:s3:::centene-sum-env3'}, 'object': {'key': 'input/triggerFile.txt', 'size': 39, 'eTag': '3a46d47e6635720d0eeac690ca279b6d', 'sequencer': '00631F38954CF60FE2'}}}]}
+
+2022-09-12T09:48:32.214-04:00	contents:
+
+2022-09-12T09:48:32.214-04:00	sbx|dev|tst|prd|srd
+
+2022-09-12T09:48:32.214-04:00	128|256|512|1024|0
+
+2022-09-12T09:48:32.546-04:00	results:
+
+2022-09-12T09:48:32.546-04:00	sbx|dev|tst|prd|srd
+
+2022-09-12T09:48:32.546-04:00	128|256|512|1024|0
+
+2022-09-12T09:48:32.546-04:00	sum:1920
+
+2022-09-12T09:48:32.568-04:00	END RequestId: 2d69e580-591d-4b0c-afde-ead95eb37807
+
+2022-09-12T09:48:32.568-04:00	REPORT RequestId: 2d69e580-591d-4b0c-afde-ead95eb37807 Duration: 624.75 ms Billed Duration: 625 ms Memory Size: 128 MB Max Memory Used: 72 MB
+
+ 
